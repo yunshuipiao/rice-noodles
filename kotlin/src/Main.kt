@@ -1,3 +1,5 @@
 fun main(args: Array<String>) {
-    print("leetcode of kotlin ")
+    println("leetcode of kotlin ")
 }
+
+
