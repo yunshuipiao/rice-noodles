@@ -1,9 +1,3 @@
-package _0001
-
-import org.testng.annotations.Test
-import kotlin.test.assertEquals
-
-
 fun twoSum(nums: IntArray, target: Int): IntArray {
     val result = IntArray(2)
     val list = IntArray(nums.size) { Int.MAX_VALUE}
@@ -20,10 +14,5 @@ fun twoSum(nums: IntArray, target: Int): IntArray {
 }
 
 
-@Test
-fun testTwoSum() {
-    val result = twoSum(intArrayOf(0, 3, 4, 0), 0)
-    assertEquals(0, result[0])
-    assertEquals(3, result[1])
-}
+
 
