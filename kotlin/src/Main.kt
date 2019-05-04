@@ -1,6 +1,3 @@
-import org.testng.annotations.Test
-import kotlin.test.assertEquals
-
 fun main(args: Array<String>) {
     println("leetcode of kotlin ")
 }
