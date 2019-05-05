@@ -1,5 +1,10 @@
 fun main(args: Array<String>) {
     println("leetcode of kotlin ")
+    test()
+}
+
+fun test() {
+    _0003()
 }
 
 //fun createReadme(from: Int, to: Int) {
