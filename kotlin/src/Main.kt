@@ -1,10 +1,12 @@
 fun main(args: Array<String>) {
     println("leetcode of kotlin ")
     test()
+//    val r = 5 + (10 - 5).shr(1)
+//    println(r)
 }
 
 fun test() {
-    _0003()
+    _0004()
 }
 
 //fun createReadme(from: Int, to: Int) {
