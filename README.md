@@ -12,4 +12,6 @@ ID | Title | Difficulty| Type | Lauguage
 0001 | Two Sum | easy | Array | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/1)
 0002 | Add Two Numbers | Medium | ListNode | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/2)
 0003 | Longest Substring Without Repeating Characters | Medium | HashMap | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/3)
+0004 | Median of Two Sorted Arrays | Hard | Binary Search | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/4)
+0005 | Longest Palindromic Substring| Medium | DP, CommonSubString | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/5)
 
