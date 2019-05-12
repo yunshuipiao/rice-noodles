@@ -6,22 +6,17 @@ import org.testng.annotations.Test
  */
 fun lengthOfLongestSubstring(s: String): Int {
     var result = 0
-    if (s.isEmpty()) {
-        return 0
-    }
-    val l = arrayListOf<Char>()
+    var tempStr = ""
     for (index in 0 until s.length) {
-        l.clear()
-        for (i in index downTo 0) {
-            if (l.contains(s[i])) {
-                break
-            } else {
-                l.add(0, s[i])
-            }
+        val i = tempStr.indexOf(s[index])
+        if (i != -1) {
+            // 当前中有重复元素
+            tempStr = tempStr.substring(i + 1) + s[index]
+        } else {
+            tempStr += s[index]
         }
-        if (l.size > result) {
-            result = l.size
-        }
+        result = Math.max(tempStr.length, result)
+
     }
     return result
 }
@@ -42,7 +37,7 @@ fun lengthOfLongestSubstring2(s: String): Int {
         if (map.containsKey(s[fast])) {
             // 这里为什么要去最大值：防止 slow 向后移动，对于abcdbea 来说，第二个a时如果不取最大值， 则slow回到1， b重复
             // 即 向左移动可能会出现重复的字符串
-            slow = Math.max(slow, (map[s[fast]]  ?: 0 ) + 1)
+            slow = Math.max(slow, (map[s[fast]] ?: 0) + 1)
         }
         map[s[fast]] = fast
         max = Math.max(max, fast - slow + 1)
@@ -52,6 +47,6 @@ fun lengthOfLongestSubstring2(s: String): Int {
 
 @Test
 fun _0003() {
-    val result = lengthOfLongestSubstring2("f d a ")
+    val result = lengthOfLongestSubstring(" ")
     println(result)
 }
