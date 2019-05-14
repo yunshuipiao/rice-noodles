@@ -69,7 +69,7 @@ fun isPalindrome(s: String): Boolean {
     return true
 }
 
-fun bastMethod(s: String): String {
+fun bestMethod(s: String): String {
     if (s.isBlank()) {
         return s
     }
