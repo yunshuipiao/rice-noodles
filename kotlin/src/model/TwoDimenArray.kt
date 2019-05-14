@@ -8,4 +8,3 @@ fun <T> printTwoDimenArray(map: Array<Array<T>>) {
         println()
     }
 }
-
