@@ -22,4 +22,5 @@ ID | Title | Difficulty| Type | Lauguage
 0010_0 |  Regular Expression Matching | Hard* | DP | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/10)
 0011 |  Container With Most Water | Medium | Two Points | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/11)
 0012 |  Integer to Roman | Medium | String, Math | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/12)
+0013 |  Roman to Integer | Easy | Map | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/13)
 
