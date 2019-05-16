@@ -17,9 +17,13 @@ fun threeSum(nums: IntArray): List<List<Int>> {
         while (l < r) {
             val sum = tempNums[index] + tempNums[l] + tempNums[r]
             if (sum > 0) {
-               r -= 1
+                do {
+                    r -= 1
+                } while (r > l && tempNums[r] == tempNums[r + 1])
             } else if (sum < 0) {
-               l += 1
+                do {
+                    l += 1
+                } while (r > l && tempNums[l] == tempNums[l - 1])
             } else {
                 result.add(arrayListOf(tempNums[index], tempNums[l], tempNums[r]))
                 do {
@@ -37,7 +41,7 @@ fun threeSum(nums: IntArray): List<List<Int>> {
 
 @Test
 fun _0015() {
-    arrayListOf(intArrayOf(-2,0,1,1,2)).forEach {
+    arrayListOf(intArrayOf(-2, 0, 1, 1, 2)).forEach {
         println(threeSum(it))
     }
 }
