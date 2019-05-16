@@ -24,6 +24,6 @@ ID | Title | Difficulty| Type | Lauguage
 0012 |  Integer to Roman | Medium | String, Math | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/12)
 0013 |  Roman to Integer | Easy | Map | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/13)
 0014 |  Longest Common Prefix | Easy | String | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/14)
-0015_0 |  3Sum | Medium | String | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/15)
+0015_0 |  3Sum | Medium | Boundary Conditions  | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/15)
 0016 |  3Sum Closest | Medium | Two point | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/16)
 
