@@ -26,4 +26,6 @@ ID | Title | Difficulty| Type | Lauguage
 0014 |  Longest Common Prefix | Easy | String | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/14)
 0015_0 |  3Sum | Medium | Boundary Conditions  | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/15)
 0016 |  3Sum Closest | Medium | Two point | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/16)
+0017 |  Letter Combinations of a Phone Number | Medium | String | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/17)
+0018_0 |  4Sum | Medium | 3Sum | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/18)
 
