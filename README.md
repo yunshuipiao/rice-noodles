@@ -31,4 +31,5 @@ ID | Title | Difficulty| Type | Lauguage
 0019 |  Remove Nth Node From End of List | Medium | ListNode, newHead | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/19)
 0020 |  Valid Parentheses  | Easy | Stack | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/20)
 0021 | Merge Two Sorted Lists | Easy | LinkedList | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/21)
+0022 | Generate Parentheses | Medium | backtracking | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/22)
 
