@@ -23,6 +23,28 @@ fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
     return newHead?.next
 }
 
+fun removeNthFromEnd2(head: ListNode?, n: Int): ListNode? {
+    var first = head
+    var second = head
+    var num = n
+    while ( num > 0) {
+        first = first?.next
+        num -= 1
+    }
+    // 最重要的一句，意味着删除的是头结点
+    if (first == null) {
+        return head?.next
+    }
+    while (first?.next != null) {
+        first = first.next
+        second = second?.next
+    }
+    second?.next = second?.next?.next
+    return head
+}
+
+// 1 2 3 4 5
+
 @Test
 fun _0019() {
     var head: ListNode? = ListNode(1)
@@ -33,7 +55,7 @@ fun _0019() {
         tHead = tHead?.next
     }
     arrayListOf(head).forEach {
-        removeNthFromEnd(head, 2)?.forEach()
+        removeNthFromEnd2(head, 2)?.forEach()
     }
 }
 
