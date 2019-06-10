@@ -32,4 +32,5 @@ ID | Title | Difficulty| Type | Lauguage
 0020 |  Valid Parentheses  | Easy | Stack | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/20)
 0021 | Merge Two Sorted Lists | Easy | LinkedList | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/21)
 0022_0 | Generate Parentheses | Medium | backtracking | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/22)
+0023 | Merge k Sorted Lists | Hard | Merge Sort | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/23)
 

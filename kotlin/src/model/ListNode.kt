@@ -14,3 +14,15 @@ class ListNode(var `val`: Int) {
     }
 }
 
+fun ArrayList<Int>.toListNode(): ListNode? {
+    val head: ListNode? = ListNode(0)
+
+    var temp = head
+    this.forEach {
+        val node: ListNode? = ListNode(it)
+        temp?.next = node
+        temp = temp?.next
+    }
+    return head?.next
+}
+
