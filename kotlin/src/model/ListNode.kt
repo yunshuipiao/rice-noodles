@@ -1,6 +1,7 @@
 package model
 
 class ListNode(var `val`: Int) {
+
     var next: ListNode? = null
 
     fun forEach(f: ((String) -> Unit) = ::print) {
@@ -12,6 +13,7 @@ class ListNode(var `val`: Int) {
         }
         println()
     }
+
 }
 
 fun ArrayList<Int>.toListNode(): ListNode? {
