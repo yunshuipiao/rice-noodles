@@ -34,4 +34,4 @@ ID | Title | Difficulty| Type | Lauguage
 0022_0 | Generate Parentheses | Medium | backtracking | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/22)
 0023 | Merge k Sorted Lists | Hard | Merge Sort | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/23)
 0024 | Swap Nodes in Pairs| Medium | Recursion | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/24)
-0025 | Reverse Nodes in k-Group |  Hard | Recursion | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/25)
+0025_1 | Reverse Nodes in k-Group |  Hard | Recursion | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/25)
