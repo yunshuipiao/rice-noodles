@@ -9,7 +9,7 @@ solve leetcode with different language
 
 
 ID | Title | Difficulty| Type | Lauguage 
----- | --- | --- | ---| ---|
+---- | --- | --- | --- | --- |
 0001 | Two Sum | easy | Array | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/1)
 0002 | Add Two Numbers | Medium | ListNode | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/2)
 0003 | Longest Substring Without Repeating Characters | Medium | HashMap | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/3)
@@ -35,3 +35,6 @@ ID | Title | Difficulty| Type | Lauguage
 0023 | Merge k Sorted Lists | Hard | Merge Sort | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/23)
 0024 | Swap Nodes in Pairs| Medium | Recursion | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/24)
 0025_1 | Reverse Nodes in k-Group |  Hard | Recursion | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/25)
+0026 | Remove Duplicates from Sorted Array|  Easy | Array | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/26)
+0027 | Remove Element |  Easy | Array | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/27)
+0028 | Implement strStr |  Easy | String Match | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/28)
