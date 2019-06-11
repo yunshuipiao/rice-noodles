@@ -19,7 +19,3 @@ fun test() {
 ////        File("kotlin/src/_$folderPath/Readme.md").createNewFile()
 //    }
 //}
-
-
-
-

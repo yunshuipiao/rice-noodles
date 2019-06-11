@@ -38,3 +38,4 @@ ID | Title | Difficulty| Type | Lauguage
 0026 | Remove Duplicates from Sorted Array|  Easy | Array | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/26)
 0027 | Remove Element |  Easy | Array | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/27)
 0028 | Implement strStr |  Easy | String Match | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/28)
+0029_0 | Divide Two Integers |  Medium | Boundary Conditions | [kotlin](https://github.com/yunshuipiao/rice-noodles/issues/28)
