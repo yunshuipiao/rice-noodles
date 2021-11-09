@@ -1,10 +1,14 @@
+import interview.quickSort
+
 fun main(args: Array<String>) {
     println("leetcode of kotlin ")
     test()
 }
 
 fun test() {
-    _0029()
+    var nums = intArrayOf(3, 1, 4, 7, 2, 5, 8, 2, 6, 9)
+    quickSort(nums)
+    println(nums.map { it })
 }
 
 //fun createReadme(from: Int, to: Int) {
